@@ -1,0 +1,82 @@
+/* styles from TP4 */
+
+h1 {
+  font-family: Arial;
+  color: red;
+}
+
+#center {
+ text-align: center; 
+}
+
+h4 {
+  margin: 0;
+  color: white;
+  font-family: Times;
+  font-size: 30px;
+  background-image: linear-gradient(red, yellow);
+}
+
+.selected {
+  color: red;
+  font-family: Brush Script MT;
+  font-size: 25px;
+}
+
+.copyright {
+  font-family: Arial;
+  font-size: 9px;
+  font-style: italic;
+}
+
+#menu li {
+  font-size: 20px;
+}
+
+div {
+  display: inline-block;
+  width: 100vw;
+  padding: 1vw;
+}
+
+#block1 {
+  display: block;
+}
+
+#block2: {
+  display: block;
+}
+
+#block3: {
+  display: block;
+}
+
+/* @media (orientation: landscape) {
+  div {
+    width: calc(100vw/3 -1vw);
+  }
+} */
+
+@media (orientation: landscape) {
+  div {
+    width: calc(100vw/3 - 3vw);
+    float: left;
+  }
+}
+
+@media (orientation: portrait) {
+  div {
+    width: calc(100vw);
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+img {
+  width: 100%;
+  height: 500px;
+}
