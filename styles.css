@@ -6,7 +6,7 @@
   height: 5vh;
   background-size: cover;
   background-postion: center center;
-  box-shadow: 0px 3px 3px rbga(0,0,0,0.7);
+  box-shadow: 0px 3px 3px rbga(0, 0, 0, 0.7);
 }
 
 #titleBanner h1 {
@@ -69,7 +69,8 @@ div {
   display: block;
 }
 
-ul, ol {
+ul,
+ol {
   display: none;
 }
 

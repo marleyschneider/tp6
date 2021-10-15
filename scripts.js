@@ -23,4 +23,4 @@ window.onload = function() {
   }
 
   document.querySelector("#copyright").innerHTML += "<p><em>Recipe shown without permission from creator, my apologies!</em></p>;"
-}  // end of window.onload
+} // end of window.onload
