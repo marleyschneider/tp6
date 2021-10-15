@@ -22,5 +22,5 @@ window.onload = function() {
     this.classList.toggle("tp6");
   }
 
-  document.querySelector("#copyright").innerHTML += "<p><em>Recipe shown without permission from creator, my apologies!</em></p>;"
+  document.querySelector("#copyright").innerHTML += "<p><em>Recipe shown without permission from creator, my apologies!</em></p>";
 } // end of window.onload
